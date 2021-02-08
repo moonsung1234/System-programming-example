@@ -17,7 +17,6 @@ int main(void) {
         
         //print system infor
         cout << "page size : " << page_size << endl;
-        
 
         memory = (int*) VirtualAlloc(
             (LPVOID) alloc_g, //window 자동 할당번지 지정
